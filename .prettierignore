@@ -1,6 +1,6 @@
-icons
-images
-logo.png
-favicon.ico
+assets/icons
+assets/images
+assets/logo.png
+assets/favicon.ico
 basketcase/assets
-docs/basketcase
+basketcase/docs
