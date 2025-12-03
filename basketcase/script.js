@@ -4,21 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		yearEl.textContent = String(new Date().getFullYear());
 	}
 
-	// App Store "coming soon" handler for all download buttons
-	const appStoreBtns = [
-		document.getElementById("app-store-btn"),
-		document.getElementById("hero-app-store-btn"),
-		document.getElementById("final-app-store-btn"),
-	];
-
-	appStoreBtns.forEach((btn) => {
-		if (btn) {
-			btn.addEventListener("click", () => {
-				alert("Coming Soon! The app will be available on the App Store shortly.");
-			});
-		}
-	});
-
 	const chapterItems = document.querySelectorAll(".chapter-list article");
 	const chapterImage = document.getElementById("chapter-image");
 	if (chapterItems.length && chapterImage) {
